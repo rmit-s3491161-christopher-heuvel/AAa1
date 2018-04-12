@@ -56,7 +56,7 @@ import re
 import shutil
 import sys
 import subprocess as sp
-
+start_time = time.time()
 
 def main():
 
@@ -244,6 +244,8 @@ def main():
 
     # change back to original path
     os.chdir(sOrigPath)
+
+    print("--- %s seconds ---" % (time.time() - start_time))
 
     print "\nSUMMARY: " + sExec + " has passed " + str(passedNum) + " out of " + str(len(lsInFile)) + " tests."
     #print "PASSED: " + ", ".join([str(x+1) for (x,y) in enumerate(vTestPassed) if y == True]) + "\n"
