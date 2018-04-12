@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9fcb99f5-57af-4915-a3e7-a66160febcd7" name="RMIT" url="http://titan.csit.rmit.edu.au">
+        <fileTransfer host="titan.csit.rmit.edu.au" port="22" rootFolder="/home/sh1/s3491161" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
