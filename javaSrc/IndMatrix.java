@@ -2,15 +2,6 @@ import java.io.*;
 import java.util.*;
 import java.util.Map.Entry;
 
-
-
-/**
- * Incidence matrix implementation for the FriendshipGraph interface.
- * 
- * Your task is to complete the implementation of this class.  You may add methods, but ensure your modified class compiles and runs.
- *
- * @author Jeffrey Chan, 2016.
- */
 public class IndMatrix <T extends Object> implements FriendshipGraph<T>
 {
 	private HashMap<T, Integer> Vertices;
